@@ -1,0 +1,46 @@
+.introduction{
+    text-align: center;
+    height:88%;
+    background-image: url("./assests/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes stack{
+    from{opacity: 0; margin-left:-100%;}
+    to{opacity: 1; margin-left: -5%; }
+}
+
+.stack{
+    margin-left: -5%;
+    animation-name: stack;
+    animation-duration: 3s;
+}
+
+.navbar{
+    margin-top: .5%;
+    height: 5%;
+}
+
+.navigation{
+    float:right;
+}
+
+.welcome{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    margin-bottom: 1%;
+}
+
+.name{
+    float:left;
+    font-family: 'Limelight', cursive;
+}
+
+.description{
+    font-family: 'Metrophobic', sans-serif;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
