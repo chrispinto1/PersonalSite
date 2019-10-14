@@ -1,25 +1,49 @@
 .introduction{
     text-align: center;
-    height:88%;
-    background-image: url("./assests/mountain.jpg");
+    margin-top: none;
+    height:100%;
+    background-image: url("./assests/lightbulbs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 @keyframes stack{
     from{opacity: 0; margin-left:-100%;}
-    to{opacity: 1; margin-left: -5%; }
+    to{opacity: 1; margin-left: 0%; }
 }
 
 .stack{
-    margin-left: -5%;
+    width: 50%;
     animation-name: stack;
     animation-duration: 3s;
+    text-align: center;
+    float:left;
+}
+
+.languages{
+    background-color: #00FF00;
+    height: 100%;
+}
+
+@keyframes languages{
+    from{opacity: 0; margin-right:100%;}
+    to{opacity: 1; margin-right: 0%; }
+}
+.known-languages{
+    animation-name: languages;
+    animation-duration: 3s;
+    width: 50%;
+    float: left;
+    text-align: center;
 }
 
 .navbar{
-    margin-top: .5%;
-    height: 5%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    background-color: black;
 }
 
 .navigation{
@@ -28,12 +52,15 @@
 
 .welcome{
     display: inline-block;
+    margin-top: 5%;
     text-align: center;
     width:100%;
     margin-bottom: 1%;
 }
 
 .name{
+    color: white;
+    margin-top: .1%;
     float:left;
     font-family: 'Limelight', cursive;
 }
@@ -43,4 +70,25 @@
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.image{
+    height: 20%;
+}
+
+img{
+    height: 100%;
+    width: 60%;
+    border-radius: 70px;
+}
+
+
+
+.links{
+    margin-top: 1%;
+    height: 10%;
+    margin-right: 3%;
+    margin-left: 3%;
 }
